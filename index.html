@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Modals and Keyboard Traps</title>
+
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div>
+      <button class="modal-toggle">POKE ME!!!</button>
+    </div>
+
+    <div class="modal">
+      <h1>Got a burning question? Send me a message</h1>
+
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" type="text">
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <input id="message" type="text">
+      </div>
+      <button id="send">Send</button>
+    </div>
+
+    <div class="modal-overlay"></div>
+
+    <script src="modal.js"></script>
+  </body>
+</html>
